@@ -47,7 +47,7 @@ jobs:
           account_key: ${{ secrets.GCLOUD_KEY }}
 
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: lorenzorivosecchi/superorch_api
           registry: eu.gcr.io
